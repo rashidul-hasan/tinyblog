@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Article;
+use App\Models\Category;
 
 class DashboardController extends Controller
 {
@@ -28,6 +29,7 @@ class DashboardController extends Controller
             'articles_total' => $articles->count(),
             'articles_published' => $articles_published->count(),
             'articles_unpublished' => $articles_unpublished->count(),
+            'categories' => Category::all()->count()
         ], 200);
     }
 }

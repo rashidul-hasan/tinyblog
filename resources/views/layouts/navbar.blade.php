@@ -2,7 +2,8 @@
     <div class="container">
         <div class="d-flex">
             <a class="header-brand" href="/">
-                <img src="/favicon.png" class="header-brand-img" alt="tabler logo">
+                <h3>TinyBlog</h3>
+                {{--<img src="/favicon.png" class="header-brand-img" alt="tabler logo">--}}
             </a>
             <div class="d-flex order-lg-2 ml-auto">
                 <div class="dropdown">
