@@ -1,0 +1,30 @@
+/* utility */
+.tc{text-align: center}
+
+.main-header .logo {
+    width: 180px;
+}
+.main-sidebar {
+    width: 180px;
+}
+.content-wrapper, .main-footer {
+    margin-left: 180px;
+}
+.main-header .navbar {
+    margin-left: 180px;
+}
+
+/* common */
+.required-field{
+    color: red;
+}
+.datatable-action .btn{
+    margin-right: 5px;
+}
+.label {
+    font-size: 100%;
+    font-weight: 400;
+}
+.label_1{ background-color: #f39c12 !important; }
+.label_2{ background-color: #00a65a !important; }
+.label_3{ background-color: #dd4b39 !important; }

@@ -1,0 +1,13 @@
+<?php
+
+namespace DummyNamespace;
+
+use {{modelNamespace}}{{modelName}};
+use Rashidul\RainDrops\Controllers\BaseController;
+
+class DummyClass extends BaseController
+{
+
+    protected $modelClass = {{modelName}}::class;
+
+}

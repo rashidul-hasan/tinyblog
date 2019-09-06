@@ -1,0 +1,30 @@
+
+/* footer tag for ltr start*/
+
+.section-footer .link-color {
+    color: white;
+    padding-left: 15px;
+}
+.section-footer .footer-tag {
+    position: relative;
+    border-left: 1px solid #fff;
+    padding-top: 10px;
+}
+.section-footer .footer-tag li {
+    position: relative;
+    font-size: 13px;
+    padding-right: 15px;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+.section-footer .footer-tag li:before {
+    height: 1px;
+    width: 14px;
+    background: #fff;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 12px;
+}
+
+/* footer tag for ltr end*/
