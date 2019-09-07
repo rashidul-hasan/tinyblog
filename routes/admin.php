@@ -19,4 +19,7 @@ Route::group(['middleware' => ['auth', 'admin'], 'prefix' => 'admin'], function(
 
     Route::get('backup', 'BackupController@index');
     Route::get('backup-db', 'BackupController@store');
+    Route::resource('settings', 'SettingsController')->except([
+        'create',
+    ]);
 });

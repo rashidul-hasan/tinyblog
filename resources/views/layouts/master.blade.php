@@ -39,6 +39,7 @@
 
     <!-- Dashboard Core -->
     <link href="/admin/css/dashboard.css" rel="stylesheet" />
+    <link href="/admin/css/styles.css" rel="stylesheet" />
     {{--<script src="/admin/js/dashboard.js"></script>--}}
     @yield('raindrops-header')
 </head>

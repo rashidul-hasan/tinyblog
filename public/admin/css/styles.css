@@ -1,0 +1,9 @@
+.tab-wrap {
+    flex-direction: column;
+}
+.tab-wrap .tab-content {
+    display: flex;
+}
+.tab-wrap .tab-pane {
+    width: 100%;
+}
